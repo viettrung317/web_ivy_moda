@@ -1,0 +1,83 @@
+.linkprev {
+    margin: 100px 0 0 30px;
+    position: relative;
+    display: flex;
+}
+
+.linkprev a:first-child {
+    color: rgb(142, 140, 140);
+}
+
+.linkprev a {
+    padding-left: 20px;
+    color: #3e3e3f;
+}
+
+.linkprev p {
+    padding-left: 20px;
+}
+
+.homeprd {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 50px;
+}
+
+.review {
+    position: relative;
+    width: 50%;
+    height: 100%;
+    padding: 100px 0 0 50px;
+}
+
+.infor_prd {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 50px;
+}
+
+.infor_prd>div {
+    padding-top: 15px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.evalute_prdcode svg {
+    color: rgb(193, 162, 9);
+}
+
+.evalute_prdcode {
+    width: 50%;
+}
+
+.price_prd {
+    width: 40%;
+}
+
+.price_prd .discount {
+    position: relative;
+    height: 30px;
+    padding: 5px 10px;
+    background-color: rgb(245, 143, 106);
+    color: #fff;
+    margin-top: -10px;
+}
+
+.select_color_prd {
+    width: 10%;
+}
+
+.select_color_prd span {
+    position: relative;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.select_size_prd {
+    width: 40%;
+}
